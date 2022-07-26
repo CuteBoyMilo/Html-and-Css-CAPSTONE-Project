@@ -9,24 +9,141 @@
     <body>
             <section class="header">
                 <nav>
-                    <div class="nav-links">
-                        <i class="fa fa-times"></i>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="">HOME</a></li>
                         <li><a href="">ABOUT MILOCAT</a></li>
                         <li><a href="">BENEFICIAL SITES ABOUT PETS</a></li>
                         <li><a href="">GALLERY</a></li>
                     </ul>
+
                     </div>
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
                 </nav>
 
                 <div class="text-box">
                     <h1>World's Cutest Cat</h1>
-                    <p>Adopting an animal is now one of the best thing. You just need to encourage yourself. Let's find the the best way to adopt a friend from street by the way of net. </p>
+                    <p>Adopting an animal is now one of the best thing. You just need to encourage yourself. <br> Let's find the the best way to adopt a friend from street by the way of net. </p>
                     <a href="" class="hero-btn">Let's Find the Milo's Journey</a>
                 </div>
             </section>
+            <!---- About Milo ----->
+            <section class="milocat">
+                <h1>Short Story of Milo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="row">
+                    <div class="course-col">
+                    <h3>New Home</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet a asperiores sapiente! Sequi eveniet doloremque modi molestiae, vitae placeat incidunt a atque nesciunt necessitatibus inventore dicta dolorum minima, optio illo?</p>
+                    </div>
+                    <div class="course-col">
+                    <h3>New Parents</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet a asperiores sapiente! Sequi eveniet doloremque modi molestiae, vitae placeat incidunt a atque nesciunt necessitatibus inventore dicta dolorum minima, optio illo?</p>
+                    </div>
+                    <div class="course-col">
+                    <h3>New Friends</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet a asperiores sapiente! Sequi eveniet doloremque modi molestiae, vitae placeat incidunt a atque nesciunt necessitatibus inventore dicta dolorum minima, optio illo?</p>
+                    </div>
+                </div>
+            </section>
+            <!---Beneficial Tricks for Your Pet--->
+
+            <section class="health">
+                <h1>The Most Beneficial Tricks for Pet Healths</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="row">
+                    <div class="health-col">
+                        <img src="images/pethealth.jpg" >
+                        <div class="layer">
+                            <h3>Pet Hospitals</h3>
+                        </div>
+                    </div>
+                    <div class="health-col">
+                        <img src="images/petclinic.jpeg" >
+                        <div class="layer">
+                            <h3>Pet Clinics</h3>
+                       </div>
+                    </div>
+                    <div class="health-col">
+                        <img src="images/petblog.jpeg" >
+                        <div class="layer">
+                        <h3>Pet Blogs</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!----Best Moments with my Pet----->
+          <section class="moments">
+                <h1>Best Memories with my Pets and Family</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+
+            <div class="row">
+                <div class="moments-col">
+                    <img src="images/milo.JPG">
+                    <h3>Handsome Boy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eaque hic inventore soluta.</p>
+                </div>
+                <div class="moments-col">
+                    <img src="images/milomaya.jpg" >
+                    <h3>Siblings</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eaque hic inventore soluta.</p>
+                </div>
+                <div class="moments-col">
+                    <img src="images/tugbamiloben.JPG" width="324px" height="432px">
+                    <h3>Family</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eaque hic inventore soluta.</p>
+                </div>
+            </div>
+
+          </section>
+
+          <!-----Comments of Pet Lovers------>
+
+          <section class="comments">
+                <h1>What the Pet Lovers Says</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                <div class="row">
+                    <div class="comments-col">
+                        <img src="images/user1.png">
+                        <div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, maiores tempora eos ullam ipsam expedita laudantium eligendi, recusandae ratione laborum assumenda officia autem nulla consequatur provident sunt aperiam? Consequatur, nulla?</p>
+                            <h3>Christian Berkley</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                   </div>
+                   <div class="comments-col">
+                       <img src="images/user1.png">
+                       <div>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, maiores tempora eos ullam ipsam expedita laudantium eligendi, recusandae ratione laborum assumenda officia autem nulla consequatur provident sunt aperiam? Consequatur, nulla?</p>
+                           <h3>Emanuel Lorenzo</h3>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-half-o"></i>
+                       </div>
+                   </div>
+                </div>
+          </section>
+
+            <!-------Javascript for Toggle Menu------->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu () {
+            navLinks.style.right ="0px";
+        }
+        function hideMenu () {
+            navLinks.style.right="-200px"
+        }
+    </script>
+
         </body>
     </head>
 </html>
