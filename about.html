@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="firstpage.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+            <section class="sub-header">
+                <nav>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="capstone.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT MILOCAT</a></li>
+                        <li><a href="info.html">BENEFICIAL INFORMATIONS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                    </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <h1>About Milo</h1>
+            </section>
+            <!-------About Milo Content ---------->
+            <section class="about-milo">
+                <div class="row">
+                    <div class="about-milo1">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis culpa, reiciendis repellat id beatae asperiores dolores nobis sit, fugiat maxime eius obcaecati nihil sapiente unde velit, sunt sequi odio illum.</p>
+                        <h1>The Prettiest Cat Ever</h1>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nemo, doloremque fugit enim impedit eveniet error eius, facere ab quod laborum ratione ad necessitatibus sequi officia quam, voluptate nostrum dicta.</p>
+                    <a class="hero-btn" href="">Explore Now</a>
+                    </div>
+                    <div class="about-milo1">
+                    <img src="images/milosubprofile.jpeg">
+                    </div>
+              </div>
+            </section>
+
+          <!------Footer---->
+          <section class="footer">
+            <h4>About Milo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae alias pariatur unde enim amet mollitia, sapiente veritatis nam distinctio repudiandae, earum corporis aut dicta possimus quaerat, iusto minus incidunt!</p>
+            <div class="icons"></div>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+          </section>
+
+
+            <!-------Javascript for Toggle Menu------->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu () {
+            navLinks.style.right ="0px";
+        }
+        function hideMenu () {
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+        </body>
+    </head>
+</html>

@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="firstpage.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+            <section class="sub-header">
+                <nav>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="capstone.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT MILOCAT</a></li>
+                        <li><a href="info.html">BENEFICIAL INFORMATIONS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                    </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            </section>
+
+          <!-------Blog Page Content------->
+           <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="images/blog.jpg">
+                        <h2>Health Informations for Your Pet</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore incidunt voluptatum autem facilis praesentium, numquam omnis dolore, excepturi accusantium voluptatibus! Facilis dolore nesciunt fuga labore praesentium provident libero aliquam.</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic beatae quae suscipit facilis inventore alias ipsam ipsa repudiandae id, aspernatur quos perferendis nam doloremque omnis veritatis saepe consectetur molestias magnam.</p><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum hic exercitationem velit illo sunt quo cumque enim asperiores aspernatur similique temporibus, consectetur voluptas pariatur, esse nisi! Dolore molestiae pariatur distinctio?</p>
+
+                        <div class="comment-box">
+
+                            <h3>Leave a Comment</h3>
+
+                            <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="e-mail" class="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn">Post Comment</button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+                    <div class="blog-right">
+                        <h3>Post Categories</h3>
+                        <div>
+                            <span>Vaccines of Pets</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Serious Illnes of Pets</span>
+                            <span>28</span>
+                        </div>
+                        <div>
+                            <span>Suggestions of Pet Accessories</span>
+                            <span>47</span>
+                        </div>
+                        <div>
+                            <span>User Comments about Pet Food</span>
+                            <span>35</span>
+                        </div>
+                        <div>
+                            <span>Advice for Street Animals</span>
+                            <span>92</span>
+                        </div>
+                    </div>
+                </div>
+
+
+           </section>
+          <!------Footer---->
+          <section class="footer">
+            <h4>About Milo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae alias pariatur unde enim amet mollitia, sapiente veritatis nam distinctio repudiandae, earum corporis aut dicta possimus quaerat, iusto minus incidunt!</p>
+            <div class="icons"></div>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+          </section>
+
+
+            <!-------Javascript for Toggle Menu------->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu () {
+            navLinks.style.right ="0px";
+        }
+        function hideMenu () {
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+        </body>
+    </head>
+</html>
